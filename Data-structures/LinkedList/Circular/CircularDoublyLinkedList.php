@@ -36,8 +36,38 @@ class CircularDoublyLinkedList
         return $this->last;
     }
 
+    public function remove($data)
+    {
+
+    }
+
+    public function find($data)
+    {
+
+    }
+
+    public function first()
+    {
+
+    }
+
+    public function last()
+    {
+
+    }
+
+    public function size()
+    {
+
+    }
+
+    public function reverse()
+    {
+        
+    }
+
     // Hàm in danh sách
-    public function list()
+    public function show()
     {
         if (is_null($this->last)) {
             echo "Empty list";
